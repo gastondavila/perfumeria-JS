@@ -1,0 +1,18 @@
+/* CONFIGURACIONES GENERALES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $c6;
+}
+ul, ol{
+    padding-left: 0;
+}
+ul, ol, div{
+    list-style: none;
+    a{
+        text-decoration: none;
+    }
+}

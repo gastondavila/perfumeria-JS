@@ -1,0 +1,37 @@
+/* INDEX */
+.nosotros {
+  background-color: white;
+  color: black;
+  padding: 1em;
+  font-size: 0.8em;
+  text-align: center;
+  h2 {
+    padding: 0.2em 0.5em;
+    font-weight: 300;
+  }
+  p {
+    font-weight: 100;
+    padding: 0.5em;
+  }
+}
+.whatsapp {
+  a {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    i {
+      color: black;
+      font-size: 50px;
+      &:hover {
+        color: #2ed86f;
+        transform: scale(1.3);
+      }
+    }
+  }
+}
+.titulo-principal {
+  @include title(white, $c8, $f3, 1em, 800, 0.6em);
+}
+.titulo-secundario {
+  @include title(white, $c8, $f3, 1em, 800, 0.6em);
+}

@@ -1,0 +1,36 @@
+/* FOOTER */
+footer {
+  color: white;
+  background-color: $c8;
+  font-family: $f3;
+  .redes {
+    p {
+      font-size: 1em;
+    }
+    i {
+      color: white;
+      font-size: 1.5em;
+      &:hover {
+        color: $c5;
+        transform: scale(1.2);
+      }
+    }
+  }
+  .ubicacion {
+    p {
+      margin-right: 10px;
+      font-size: 1em;
+    }
+    i {
+      font-size: 1.5em;
+    }
+  }
+  .pago {
+    i {
+      font-size: 1.5em;
+    }
+  }
+  .autor {
+    font-size: 0.7em;
+  }
+}

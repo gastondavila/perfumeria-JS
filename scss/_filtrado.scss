@@ -1,0 +1,29 @@
+/* FILTRADO */
+#nuestros-productos {
+  .contenedor-filtro {
+    text-align: center;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    background-color: $c4;
+    color: white;
+    .contenedor-opciones {
+      height: 40px;
+      label {
+        color: black;
+        padding: 0 20px 0 20px;
+        font-family: $f2;
+        font-size: 1.3em;
+      }
+      select {
+        background-color: $c4;
+        border: none;
+        height: 40px;
+        right: 0;
+        padding: 5px;
+        cursor: pointer;
+      }
+    }
+  }
+}

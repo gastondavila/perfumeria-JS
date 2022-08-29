@@ -1,0 +1,39 @@
+/* HEADER */
+.menu {
+  margin-bottom: 20px;
+  background-color: $c4;
+  .menu-titulo {
+    background-color: $c4;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    h1 {
+      height: 80px;
+      margin-right: 5%;
+      display: flex;
+      align-items: center;
+      color: black;
+      font-size: 2em;
+      font-family: $f1;
+    }
+    img {
+      width: 80px;
+      height: 80px;
+    }
+    #boton-carrito {
+      background: none;
+      border: none;
+      position: absolute;
+      top: 1em;
+      right: 1em;
+      i {
+        color: $c8;
+        font-size: 2em;
+        &:hover {
+          color: $c5;
+          transform: scale(1.15);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+/* MIXIN */
+@mixin title ($b-c, $c, $f-f, $f-s, $f-w, $p){
+    background-color: $b-c;
+    color: $c;
+    font-family: $f-f;
+    font-size: $f-s;
+    font-weight: $f-w;
+    padding: $p;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 75%;
+}
